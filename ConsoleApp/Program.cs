@@ -7,6 +7,7 @@ using ConsoleApp.Creational.Singleton;
 using ConsoleApp.Structural.Adapter;
 using ConsoleApp.Structural.Bridge;
 using ConsoleApp.Structural.Composite;
+using ConsoleApp.Structural.Decorator;
 
 PrintHelper.PrintPattern<FactoryMethodExample>();
 PrintHelper.PrintPattern<AbstractFactoryExample>();
@@ -17,3 +18,4 @@ PrintHelper.PrintPattern<SingletonExample>();
 PrintHelper.PrintPattern<AdapterExample>();
 PrintHelper.PrintPattern<BridgeExample>();
 PrintHelper.PrintPattern<CompositeExample>();
+PrintHelper.PrintPattern<DecoratorExample>();
